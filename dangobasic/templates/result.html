@@ -1,0 +1,25 @@
+{% extends "Layout.html" %}
+
+{% block content %}
+
+<section class="Article">
+    <div class="container-sm">
+        <main class="grid">
+            {% for Card in cards %}
+            <article>
+            <img src="{{Card.image.url}}" alt="Sample photo">
+            <div class="text">
+                <h3>{{Card.topic}} </h3>
+                <p> {{Card.message}}</p>
+                <a href="#" class="btn btn-danger btn-block">Read more</a>
+            </div>
+            </article>
+            {% endfor %}
+    </div>
+        
+</section>
+
+<script>var parallax = new Parallax('.parallax');
+    parallax.init();
+</script>
+{% endblock %}

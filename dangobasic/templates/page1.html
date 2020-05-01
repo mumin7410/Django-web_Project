@@ -1,0 +1,129 @@
+{% extends "Layout.html" %}
+{% load static %}
+{% block content%}     
+<div class="banner">
+    <img src="https://images3.alphacoders.com/825/82545.jpg" alt="">
+
+    <div class="content">
+        <h2>Eulims</h2>
+        <p>Lorem ipsum dolor sit amet consect 
+           
+           
+        </p>
+    </div>
+</div>
+
+<section class="about" id="about">
+    <div class="contentbox">
+        <h2 class="heading"> about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero voluptates autem itaque rem, 
+            quisquam exercitationem nihil nemo quo optio 
+            ratione alias vel? Eius velit reprehenderit 
+            neque obcaecati est, unde quos? <br><br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero voluptates autem itaque rem, 
+            quisquam exercitationem nihil nemo quo optio 
+            ratione alias vel? Eius velit reprehenderit 
+            neque obcaecati est, unde quos?
+        </p>
+    </div>
+
+    <div class="imgbox"></div>
+</section>
+
+
+<section class="service" id="service">
+    <h2 class="heading">
+        Article
+    </h2>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil dolor pariatur 
+        qui explicabo dolorum fugiat fuga possimus id illum earum, libero consequuntur 
+        molestias ut aliquam velit eaque. Eligendi, beatae nobis.
+    </p>
+    <div class="container">
+        <div class="servicebox">
+            <div>
+                <img src="https://image.flaticon.com/icons/svg/40/40380.svg" alt="">
+                <h2>Science</h2>
+                <a href="/resulting"><input type="submit" value="Read" class="btn btn-danger btn-block"></a>
+            </div>
+        </div>
+        <div class="servicebox">
+            <div>
+                <img src="https://image.flaticon.com/icons/svg/42/42110.svg" alt="">
+                <h2>Space</h2>
+                <a href="/resulting"><input type="submit" value="Read" class="btn btn-danger btn-block"></a>
+            </div>
+        </div>
+        <div class="servicebox">
+            <div>
+                <img src="https://image.flaticon.com/icons/svg/2103/2103514.svg" alt="">
+                <h2>ComputerScinece</h2>
+                <a href="/resulting"><input type="submit" value="Read" class="btn btn-danger btn-block"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="technology" id="technology"> 
+    <div class="contentbox">
+        <h2 class="heading">Use cutting edge technology</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde assumenda minus laboriosam, 
+            iure eaque inventore maxime itaque accusamus, rerum quae rem 
+            ipsa, est consequatur similique? Aspernatur 
+            commodi tenetur consectetur sapiente.</p>
+    </div>
+    <div class="imgbox">
+        <img src="{% static '/media/tech.png' %}" alt="">
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+    <div class="contentbox">
+        <h2 class="heading">
+            Contact us
+        </h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, 
+            ea tempore aut eligendi 
+            minus beatae adipisci veniam molestias 
+            alias corrupti quisquam magni error voluptatibus 
+            harum? Vel ducimus amet quibusdam velit!
+        </p>
+    </div>
+</section>
+
+<section class="about">
+    <div class="contentbox2">
+        <div class="form">
+            <div class="inputbox">
+                <input type="text" name="" placeholder="Fullname">
+            </div>
+            <div class="inputbox">
+                <input type="text" name="" placeholder="E-mail">
+            </div>
+            <div class="inputbox">
+                <input type="text" name="" placeholder="Mobile">
+            </div>
+            <div class="inputbox">
+                <textarea placeholder="message"></textarea>
+            </div>
+            <div class="sendbox">
+                <input type="submit" value="Send" class="btn btn-primary">
+            </div>
+        </div>
+    </div>
+    <div class="imgbox2"></div>
+</section>    
+
+<section class="footer">
+    <p>  Design & Developed By Minstone</p>
+    <ul>
+        <p>Follow us on:</p>
+        <li><a href="https://www.facebook.com/min.stone.14"><img src="https://image.flaticon.com/icons/svg/1384/1384037.svg"></a></li>
+        <li><a href="https://twitter.com/minston34688464"><img src="https://image.flaticon.com/icons/svg/1384/1384049.svg"></a></li>
+        <li><a href="https://www.linkedin.com/in/minstone-null-4899481a0/"><img src="https://image.flaticon.com/icons/svg/1384/1384046.svg"></a></li>
+    </ul>
+</section>
+{% endblock %}
